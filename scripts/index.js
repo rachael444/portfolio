@@ -11,3 +11,10 @@ document.addEventListener('scroll', function () {
         navelement.style.backgroundColor = 'transparent';
     }
 });
+
+var typed = new Typed('#element', {
+    strings: ['I Love to develop.', 'A web Designer', 'A Developer', 'I Love Design'],
+    typeSpeed: 75,
+    loop: true,
+    loopCount: Infinity,
+});
